@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0415938496f2f9344b25707956f7cc4e, type: 3}
+  m_Name: Diary
+  m_EditorClassIdentifier: 
+  itemName: Lost Diary
+  itemImage: {fileID: 21300000, guid: 7303709dd6d240345a79a2db232b76c3, type: 3}
+  itemDetail: {fileID: 21300000, guid: f63c4410c37907846a87295b24638c6b, type: 3}
+  itemHeld: 0
+  itemConfig: 0
+  itemInfo: "When Ming left, I noticed this diary lying on the grass by the shore.
+    I don\u2019t know whose it is, but the entries are quite innocent. It reads,
+    \u201CI wonder when Mom and Dad will come back. I did well on my test today.\u201D
+    And then, \u201CIt\u2019s the Lunar New Year, and I\u2019ve saved two plates
+    of dumplings for Mom and Dad. Grandma told me to go to bed early, but I\u2019ll
+    leave the night light on for them!\u201D "
+  isFish: 0
+  fishCountText: 

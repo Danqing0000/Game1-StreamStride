@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &928731995825161088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 928731995825161091}
+  - component: {fileID: 928731995825161090}
+  - component: {fileID: 928731995825161089}
+  m_Layer: 0
+  m_Name: QuestPre
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &928731995825161091
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928731995825161088}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &928731995825161090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928731995825161088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c32e4b851ebd8fa4ea0645b99be1cf97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _serializedExposedParameters: []
+  _boundGraphSerialization: '{"type":"NodeCanvas.DialogueTrees.DialogueTree","nodes":[{"_action":{"method":{"_baseInfo":"GameManager|KeyboardDisable|System.Void","_paramsInfo":"System.Boolean"},"parameters":[{"_type":"System.Boolean","_value":{"$content":false,"$type":"System.Boolean"}}],"returnValue":{},"overrideAgent":{"_type":"GameManager","_value":1},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":348.0,"y":31.20001},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"0"},{"statement":{"_text":"I
+    love the breeze here\u2026 I haven\u2019t been on a business trip in a long time.
+    "},"_actorName":"Me","_actorParameterID":"19591178-e5e5-4731-bca7-d274593dd68f","_color":{"a":1.0},"_position":{"x":541.7248,"y":181.8398},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"1"},{"statement":{"_text":"Staying
+    in the lab is kinda boring for me. I\u2019m getting curious about the destination
+    this time."},"_actorName":"Me","_actorParameterID":"19591178-e5e5-4731-bca7-d274593dd68f","_position":{"x":543.7248,"y":310.8398},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"2"},{"statement":{"_text":"[Phone
+    vibrates] Buzz... Buzz..."},"_actorName":"[...]","_actorParameterID":"e6b753e3-abd2-4c9e-8470-842ded6e16f8","_position":{"x":541.7248,"y":427.8398},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"3"},{"statement":{"_text":"Ah\u2026
+    It\u2019s Jerry. Hey, Brother Sun! How are you doing these days? "},"_actorName":"Me","_actorParameterID":"19591178-e5e5-4731-bca7-d274593dd68f","_position":{"x":543.9146,"y":540.3168},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"4"},{"statement":{"_text":"Good
+    haha! I\u2019m in H city these days, doing some water testing, you know. How
+    do you feel sitting again on the research vessel? Miss a lot?"},"_actorName":"Brother
+    Sun","_actorParameterID":"c3c815d1-9504-4c9c-a60d-b1986829ef05","_position":{"x":239.7087,"y":686.1537},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"5"},{"statement":{"_text":"Haha,
+    it\u2019s quite different though! I mean, staying in the lab for years, analysing
+    water samples, running tests, staring at data charts\u2026 "},"_actorName":"Me","_actorParameterID":"19591178-e5e5-4731-bca7-d274593dd68f","_position":{"x":549.5132,"y":786.6426},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"6"},{"statement":{"_text":"I
+    do miss the days sailing in different areas. Finally got a chance to take a break!
+    I\u2019m so excited."},"_actorName":"Me","_actorParameterID":"19591178-e5e5-4731-bca7-d274593dd68f","_position":{"x":547.262,"y":904.2291},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"7"},{"statement":{"_text":"Haha,
+    I can imagine! it\u2019s been a while since you were out in the field. We\u2019ve
+    upgraded the equipment, and it has been simplified a lot. "},"_actorName":"Brother
+    Sun","_actorParameterID":"c3c815d1-9504-4c9c-a60d-b1986829ef05","_position":{"x":240.0077,"y":1014.331},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"8"},{"statement":{"_text":"As
+    long as the water is collected at a specific point, the testing machine will
+    analyze the basic numerical machine for you."},"_actorName":"Brother Sun","_actorParameterID":"c3c815d1-9504-4c9c-a60d-b1986829ef05","_position":{"x":239.8453,"y":1106.995},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"9"},{"statement":{"_text":"If
+    you have any questions, just look up on the workbook. You still got it, right?
+    Easy for you."},"_actorName":"Brother Sun","_actorParameterID":"c3c815d1-9504-4c9c-a60d-b1986829ef05","_position":{"x":238.8342,"y":1214.006},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"10"},{"statement":{"_text":"Yep,
+    it\u2019s in my pocket. But the mission this time it\u2019s quite important.
+    "},"_actorName":"Me","_actorParameterID":"19591178-e5e5-4731-bca7-d274593dd68f","_position":{"x":540.6238,"y":1337.108},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"11"},{"statement":{"_text":"The
+    city officials are making plans for the development of the Water Town, and the
+    boss sent me to do an overall testing for the whole area."},"_actorName":"Me","_actorParameterID":"19591178-e5e5-4731-bca7-d274593dd68f","_position":{"x":539.5161,"y":1451.203},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"12"},{"statement":{"_text":"I
+    see\u2026 It seems that your report determines the future of the Water Town.
+    But hey, it\u2019s not just the quality that matters, the locals have their own
+    insights. "},"_actorName":"Brother Sun","_actorParameterID":"c3c815d1-9504-4c9c-a60d-b1986829ef05","_position":{"x":252.647,"y":1565.281},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"13"},{"statement":{"_text":"Take
+    some time to listen to them. It\u2019s a chance to really soak in the local culture
+    and understand their concerns. It might give you a new perspective on your work."},"_actorName":"Brother
+    Sun","_actorParameterID":"c3c815d1-9504-4c9c-a60d-b1986829ef05","_position":{"x":250.4316,"y":1687.13},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"14"},{"statement":{"_text":"You\u2019re
+    right, Brother Sun. I\u2019ll make sure to engage with the Villagers. After all,
+    they\u2019re the ones living with the water every day. Thanks for the reminder!"},"_actorName":"Me","_actorParameterID":"19591178-e5e5-4731-bca7-d274593dd68f","_position":{"x":556.269,"y":1789.065},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"15"},{"statement":{"_text":"Don\u2019t
+    push yourself too hard on the test. Just live like a local. I heard that the
+    Water Town is famous for fishing, hope you have taken your fishing gear with
+    you! "},"_actorName":"Brother Sun","_actorParameterID":"c3c815d1-9504-4c9c-a60d-b1986829ef05","_position":{"x":261.6116,"y":1906.621},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"16"},{"statement":{"_text":"I
+    also remember that they have the best Yellowfin Tuna in the city. Don\u2019t
+    forget to have a try!"},"_actorName":"Brother Sun","_actorParameterID":"c3c815d1-9504-4c9c-a60d-b1986829ef05","_position":{"x":262.7193,"y":2026.254},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"17"},{"statement":{"_text":"Of
+    course! I\u2019ll bring you some souvenirs and the tales, and you prepare the
+    ale when I come back."},"_actorName":"Me","_actorParameterID":"19591178-e5e5-4731-bca7-d274593dd68f","_position":{"x":558.433,"y":2140.298},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"18"},{"statement":{"_text":"Deal!
+    Take care out there, Stream Strider! And remember, the fate of the Water Town\u2014and
+    its people\u2014rests in your capable hands."},"_actorName":"Brother Sun","_actorParameterID":"c3c815d1-9504-4c9c-a60d-b1986829ef05","_position":{"x":268.2665,"y":2257.68},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"19"},{"statement":{"_text":"Stream
+    Strider\u2026 I like that. Over and out!"},"_actorName":"Me","_actorParameterID":"19591178-e5e5-4731-bca7-d274593dd68f","_position":{"x":555.1441,"y":2418.539},"$type":"NodeCanvas.DialogueTrees.StatementNode","$id":"20"},{"_action":{"method":{"_baseInfo":"GameManager|KeyboardDisable|System.Void","_paramsInfo":"System.Boolean"},"parameters":[{"_type":"System.Boolean","_value":{"$content":true,"$type":"System.Boolean"}}],"returnValue":{},"overrideAgent":{"_type":"GameManager","_value":1},"$type":"NodeCanvas.Tasks.Actions.ExecuteFunction_Multiplatform"},"_position":{"x":527.9312,"y":2538.093},"$type":"NodeCanvas.DialogueTrees.ActionNode","$id":"21"},{"_position":{"x":611.6528,"y":2662.348},"$type":"NodeCanvas.DialogueTrees.FinishNode","$id":"22"}],"connections":[{"_sourceNode":{"$ref":"0"},"_targetNode":{"$ref":"1"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"1"},"_targetNode":{"$ref":"2"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"2"},"_targetNode":{"$ref":"3"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"3"},"_targetNode":{"$ref":"4"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"4"},"_targetNode":{"$ref":"5"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"5"},"_targetNode":{"$ref":"6"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"6"},"_targetNode":{"$ref":"7"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"7"},"_targetNode":{"$ref":"8"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"8"},"_targetNode":{"$ref":"9"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"9"},"_targetNode":{"$ref":"10"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"10"},"_targetNode":{"$ref":"11"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"11"},"_targetNode":{"$ref":"12"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"12"},"_targetNode":{"$ref":"13"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"13"},"_targetNode":{"$ref":"14"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"14"},"_targetNode":{"$ref":"15"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"15"},"_targetNode":{"$ref":"16"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"16"},"_targetNode":{"$ref":"17"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"17"},"_targetNode":{"$ref":"18"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"18"},"_targetNode":{"$ref":"19"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"19"},"_targetNode":{"$ref":"20"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"20"},"_targetNode":{"$ref":"21"},"$type":"NodeCanvas.DialogueTrees.DTConnection"},{"_sourceNode":{"$ref":"21"},"_targetNode":{"$ref":"22"},"$type":"NodeCanvas.DialogueTrees.DTConnection"}],"canvasGroups":[],"localBlackboard":{"_variables":{}},"derivedData":{"actorParameters":[{"_keyName":"Me","_id":"19591178-e5e5-4731-bca7-d274593dd68f","_actorObject":2},{"_keyName":"Brother
+    Sun","_id":"c3c815d1-9504-4c9c-a60d-b1986829ef05","_actorObject":3},{"_keyName":"[...]","_id":"e6b753e3-abd2-4c9e-8470-842ded6e16f8","_actorObject":4}],"$type":"NodeCanvas.DialogueTrees.DialogueTree+DerivedSerializationData"}}'
+  _boundGraphObjectReferences:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  _boundGraphSource:
+    _version: 3.28
+    _category: 
+    _comments: Brother Sun & me, phone call. tells me how to do and what to do.
+    _translation: {x: 339, y: 88}
+    _zoomFactor: 0.4893416
+  _firstActivation: 0
+  _enableAction: 1
+  _disableAction: 2
+  _lockBoundGraphPrefabOverrides: 1
+  _preInitializeSubGraphs: 0
+  _updateMode: 0
+  _graph: {fileID: 0}
+  _blackboard: {fileID: 928731995825161089}
+--- !u!114 &928731995825161089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928731995825161088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b98a6db0b653f764eac834f85857a9dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parentBlackboard: {fileID: 0}
+  _serializedBlackboard: '{"_variables":{}}'
+  _objectReferences: []
+  _serializedVariables: []

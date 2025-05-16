@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0415938496f2f9344b25707956f7cc4e, type: 3}
+  m_Name: Newspaper
+  m_EditorClassIdentifier: 
+  itemName: Newspaper
+  itemImage: {fileID: 21300000, guid: de46441dd06a84b4084470d2ab11347d, type: 3}
+  itemDetail: {fileID: 21300000, guid: 8723ac9e58c17a742a47e0d600db14e4, type: 3}
+  itemHeld: 0
+  itemConfig: 0
+  itemInfo: "A newspaper that Mr. Zhang gave to me. It\u2019s a newspaper talking
+    about the famous yellowfin tuna derived from the Harbor village. The title is
+    attractive:\"Harbor Village: Where the Ocean\u2019s Finest Dance \u2013 Yellowfin
+    Tuna Unleashed!\""
+  isFish: 0
+  fishCountText: 
